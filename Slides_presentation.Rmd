@@ -75,7 +75,7 @@ Quelques exemples :
 
 # I. Simulation du système d'équation
 
-## A] Modèle d'Euler
+## A] Méthode d'Euler
 
 ```{r, results = 'hide'}
 
@@ -105,6 +105,7 @@ methodEuler<-function(z,a,b,c,d,h,n){
 Ici on part avec les populations initiales de 800 proies et 400 prédateurs.
 
 \begin{center}
+Simulation avec la méthode d'Euler
 \includegraphics[width=11cm]{images_simulations/plots_euler.PNG}
 \end{center}
 
@@ -115,12 +116,13 @@ Le modèle n'est pas périodique.
 Une modification même minime des constantes (c=0.005 au lieu de c=0.001) peut décimer une population extrêmement rapidement.
 
 \begin{center}
+Simulation avec la méthode d'Euler modifiée
 \includegraphics[width=10cm]{images_simulations/plots_euler_modif.PNG}
 \end{center}
 
 On recherche donc un modèle plus stable présentant une rélle périodicité.
 
-## B] Modèle de Runge-Kutta
+## B] Méthode de Runge-Kutta
 ```{r, eval=FALSE}
 methodRK4<-function(z,a,b,c,d,h,n){
   Z<-data.frame(t=0)
