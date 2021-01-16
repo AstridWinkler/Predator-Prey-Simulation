@@ -9,3 +9,6 @@ You first need to install the devtools package, it can be done easily from Rstud
 devtools::install_github("AstridWinkler/Predator-Prey-Simulation")  
 library(Predator-Prey-Simulation)
 ````
+
+Project in collaboration with Lucie GOMES and Louise WEBER.
+https://github.com/LuiceGomes
