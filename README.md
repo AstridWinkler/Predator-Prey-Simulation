@@ -11,4 +11,5 @@ library(Predator-Prey-Simulation)
 ````
 
 Project in collaboration with Lucie GOMES and Louise WEBER.
-https://github.com/LuiceGomes
+
+https://github.com/GomesLucie
